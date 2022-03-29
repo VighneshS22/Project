@@ -1,0 +1,29 @@
+input {
+   width: 50%;
+   height: 30px;
+   border-radius: 10px;
+   background: none;
+}
+label {
+   font-size: large;
+   font-weight: 500;
+}
+
+h1 {
+   padding-left: 100px;
+   font-weight: bold;
+}
+input[type='text'] {
+   box-sizing: border-box;
+   border: 1px solid black;
+}
+
+::placeholder {
+   color: black;
+   font-size: 1.5em;
+}
+textarea {
+   height: 100px;
+   box-sizing: border-box;
+   border: 1px solid black;
+}

@@ -1,0 +1,48 @@
+input {
+   width: 90%;
+   height: 30px;
+   border-radius: 10px;
+   background: none;
+}
+
+label {
+   font-size: large;
+   font-weight: 500;
+}
+
+h1 {
+   font-weight: bold;
+}
+
+button {
+   border-radius: 5px;
+   size: 100px;
+}
+
+td {
+   font-size: medium;
+}
+
+th {
+   font-size: large;
+   text-transform: uppercase;
+}
+input[type='password'] {
+   box-sizing: border-box;
+   border: 2px solid black;
+}
+input[type='text'] {
+   box-sizing: border-box;
+   border: 2px solid black;
+}
+
+::placeholder {
+   color: black;
+   font-size: 1.5em;
+}
+table,
+th,
+td {
+   border: 2px solid white;
+   text-align: center;
+}

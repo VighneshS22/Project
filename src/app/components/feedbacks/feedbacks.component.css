@@ -1,0 +1,28 @@
+input {
+   width: 60%;
+   height: 30px;
+   border-radius: 10px;
+   background: none;
+}
+label {
+   font-size: large;
+   font-weight: 500;
+}
+
+h1 {
+   padding-left: 100px;
+   font-weight: bold;
+}
+button {
+   border-radius: 5px;
+   size: 100px;
+}
+input[type='text'] {
+   box-sizing: border-box;
+   border: 2px solid black;
+}
+
+::placeholder {
+   color: black;
+   font-size: 1.5em;
+}

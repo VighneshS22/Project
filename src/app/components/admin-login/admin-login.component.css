@@ -1,0 +1,27 @@
+input {
+   width: 50%;
+   height: 30px;
+   border-radius: 10px;
+   background: none;
+}
+label {
+   font-size: large;
+   font-weight: 500;
+}
+
+h1 {
+   font-weight: bold;
+}
+input[type='password'] {
+   box-sizing: border-box;
+   border: 1px solid black;
+}
+input[type='text'] {
+   box-sizing: border-box;
+   border: 1px solid black;
+}
+
+::placeholder {
+   color: black;
+   font-size: 1.5em;
+}
